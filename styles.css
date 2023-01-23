@@ -1,0 +1,25 @@
+body{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn-modern{
+  padding: 5px 5px;
+  border-radius: 4px;
+  border: none;
+  background-color: darksalmon;
+  border-bottom: 3px solid salmon;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.btn-modern:hover{
+  background-color: #790804;
+  color: wheat;
+  border-bottom: #790804;
+}
